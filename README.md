@@ -1,2 +1,2 @@
 # Anomaly-Detection
-Cybersecurity group project with Andrew U. and Brett R.
+This project applies Hidden Markov Models (HMMs) to detect collective anomalies in electricity usage data as a proxy for identifying Advanced Persistent Threats (APTs) targeting critical infrastructure. Using R and the depmixS4 package, we engineered features via PCA, trained multiple HMMs, evaluated performance using log-likelihood and BIC, and established anomaly thresholds. The final model identified significant deviations in test data, simulating how anomaly-based intrusion detection could flag cyberattacks in real-world power grids.
